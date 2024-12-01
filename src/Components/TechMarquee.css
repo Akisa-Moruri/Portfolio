@@ -1,51 +1,62 @@
 .marquee-container {
-    overflow: hidden;
-    width: 100%;
-    background-color: #f4f4f4; /* Adjust to your preferred background */
+  overflow: hidden;
+  width: 100%;
+  background-color: #f4f4f4; /* Adjust to your preferred background */
+}
+
+.marquee {
+  display: flex;
+  animation: marquee 20s linear infinite;
+}
+
+.tech-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 40px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px; /* Increased padding */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  width: 150px;  /* Set a fixed width */
+  height: 200px; /* Set a fixed height */
+}
+
+.tech-card:hover {
+  transform: scale(1.05);
+}
+
+.tech-image {
+  width: 100px;  /* Increased image size */
+  height: 100px; /* Increased image size */
+  object-fit: contain;
+  margin-bottom: 15px;  /* Adjusted margin */
+}
+
+.tech-name {
+  font-size: 28px;  /* Increased font size */
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
   }
-  
-  .marquee {
-    display: flex;
-    animation: marquee 20s linear infinite;
+  100% {
+    transform: translateX(-100%);
   }
-  
-  .tech-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-right: 40px;
-    background-color: #ffffff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-  }
-  
-  .tech-card:hover {
-    transform: scale(1.05);
-  }
-  
-  .tech-image {
-    width: 80px;  /* Adjust size as needed */
-    height: 80px; /* Adjust size as needed */
-    object-fit: contain;
-    margin-bottom: 10px;
-  }
-  
-  .tech-name {
-    font-size: 14px;
-    font-weight: bold;
-    color: #333;
-    text-align: center;
-  }
-  
-  @keyframes marquee {
-    0% {
-      transform: translateX(100%);
-    }
-    100% {
-      transform: translateX(-100%);
-    }
-  }
-  
+}
+
+.experience-heading {
+  font-size: 36px; /* Adjust size as needed */
+  font-weight: bold;
+  text-align: center;
+  display: inline-block; /* Makes the heading inline */
+  margin-bottom: 20px; /* Optional: space below the heading */
+}
+
