@@ -2,6 +2,7 @@ import React from 'react';
 import './TechMarquee.css';  // Assuming the styles are in this CSS file
 import css from '../assets/css.jpeg';
 
+
 const TechMarquee = () => {
   const techs = [
     { name: "CSS", src: {css} },

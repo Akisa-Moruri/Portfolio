@@ -1,4 +1,5 @@
 import React from 'react';
+import WorkImage from '../assets/WorkImage.jpg';
 
 function About() {
   return (
@@ -35,8 +36,8 @@ function About() {
 
       <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
         <img
-          className="h-56 w-full object-cover object-top sm:h-72 md:h-96 lg:w-full lg:h-full"
-          src="https://cdn.pixabay.com/photo/2016/03/23/04/01/woman-1274056_960_720.jpg"
+          className="mt-12 md:mt-0"
+          src={WorkImage}
           alt="Professional person working with focus"
         />
       </div>
