@@ -31,7 +31,7 @@ const TechMarquee = () => {
 
   return (
     <div id="experience" className="tech-container">
-      <h1 className="experience-heading">Experience</h1>
+      <h1 className="text-4xl font-bold text-center mb-10">Experience</h1>
 
       <p>
         As a passionate and dedicated web developer, I bring a strong foundation in both front-end and back-end technologies to deliver seamless digital experiences. I specialize in crafting responsive, user-friendly interfaces with HTML, CSS, and JavaScript (React), ensuring every project is both visually appealing and intuitive.

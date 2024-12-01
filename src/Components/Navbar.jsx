@@ -24,7 +24,7 @@ function Navbar() {
               <li><HashLink smooth to="#education" className="md:p-4 py-3 px-0 block">Education</HashLink></li>
               <li><HashLink smooth to="#experience" className="md:p-4 py-3 px-0 block">Experience</HashLink></li>
               <li><HashLink smooth to="#projects" className="md:p-4 py-3 px-0 block">Projects</HashLink></li>
-              <li><HashLink smooth to="#contacts" className="md:p-4 py-3 px-0 block md:mb-0 mb-2">Contact</HashLink></li>
+              <li><HashLink smooth to="#contact" className="md:p-4 py-3 px-0 block md:mb-0 mb-2">Contact</HashLink></li>
             </ul>
           </nav>
         </div>
