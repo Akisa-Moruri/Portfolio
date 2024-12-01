@@ -14,6 +14,11 @@ function Education() {
       course: 'Diploma in Land Surveying',
     },
     {
+        year: '2015 - 2017',
+        school: 'Defence Forces Technical College',
+        course: 'Technical Convertion in Land Surveying',
+      },
+    {
       year: 'February 2024 - August 2024',
       school: 'Moringa School',
       course: 'Certification in Software Engineering',
