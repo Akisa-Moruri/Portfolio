@@ -31,9 +31,9 @@ const TechMarquee = () => {
 
   return (
     <div id="experience" className="tech-container">
+      <br/>
       <h1 className="text-4xl font-bold text-center mb-10">Experience</h1>
-
-      <p>
+      <p className='text-center'>
         As a passionate and dedicated web developer, I bring a strong foundation in both front-end and back-end technologies to deliver seamless digital experiences. I specialize in crafting responsive, user-friendly interfaces with HTML, CSS, and JavaScript (React), ensuring every project is both visually appealing and intuitive.
         <br /><br />
         On the backend, I leverage Python (Flask) to build powerful, scalable server-side applications, supported by a solid understanding of SQL for efficient database management. I'm also proficient with tools like Postman for API testing, Git for version control, and am well-versed in the full deployment cycle to smoothly transition projects from development to production.

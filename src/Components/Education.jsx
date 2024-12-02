@@ -28,8 +28,8 @@ function Education() {
   return (
     <div id="education">
       {/* Education Section */}
-      <section className="w-full h-full bg-gray-800 dark:bg-gray-200 px-6 py-12">
-        <h3 className="mb-14 text-white text-center text-3xl font-semibold lg:text-left xl:text-4xl">
+      <section className="w-full h-full bg-gray-400 dark:bg-gray-200 px-6 py-12">
+        <h3 className="my-6 text-4xl tracking-tight font-extrabold text-gray-900 sm:text-3xl md:text-4xl">
           Education
         </h3>
 
