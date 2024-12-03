@@ -22,14 +22,11 @@ function Education() {
   ];
 
   return (
-    <div id="education">
-      {/* Education Section */}
+    <div id="education">      
       <section className="w-full h-full bg-gray-400 dark:bg-gray-200 px-6 py-12">
         <h3 className="my-6 text-4xl tracking-tight font-extrabold text-gray-900 sm:text-3xl md:text-4xl">
           Education
-        </h3>
-
-        {/* Education Items */}
+        </h3>        
         {educationData.map((item, index) => (
           <div key={index} className="my-8">
             <div className="rounded-2xl bg-indigo-600/80 w-3/4 lg:w-1/2 mx-auto px-4 py-8 text-gray-100 border-2 border-gray-600/30">

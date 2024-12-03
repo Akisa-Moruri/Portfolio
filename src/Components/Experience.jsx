@@ -1,6 +1,6 @@
 import React from 'react';
-import './TechMarquee.css';  // Assuming the styles are in this CSS file
-import css from '../assets/css.jpeg'; // Import CSS image correctly
+import './TechMarquee.css'; 
+import css from '../assets/css.jpeg'; 
 import nodejs from '../assets/nodejs.png';
 import logohtml from '../assets/logohtml.png';
 import logojavascript from '../assets/logojavascript.png';

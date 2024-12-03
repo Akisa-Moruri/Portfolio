@@ -1,36 +1,35 @@
 import React from "react";
 
 function Projects() {
-  // Example products data
+  
   const products = [
     {
       id: 1,
       title: "DFIR TRACE",
       description: "Forensic and cyber-security private firm website",
       status: "Under Development",
-      image: "", // Placeholder for a second image      
+      image: "",    
     },
     {
       id: 2,
       title: "BCC CHURCH",
       description: "Church Website",
-      status: "Under Development", //
-      image: "", // Placeholder for a second image      
+      status: "Under Development",
+      image: "",    
     },
     {
       id: 3,
       title: "",
       description: "",
       status: "Under Development",
-      image: "", // Placeholder for a second image      
+      image: "",      
     },
-    // Add more products here
+    
   ];
 
   return (
     <div id="projects">
-      <section className="container mx-auto p-10 md:py-12 md:px-0">
-        {/* Centered Bold Heading */}
+      <section className="container mx-auto p-10 md:py-12 md:px-0">        
         <h1 className="text-4xl font-bold text-center mb-10">Projects</h1>
         <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-10 items-start">
           {products.map((product) => (

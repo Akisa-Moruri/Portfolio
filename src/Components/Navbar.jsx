@@ -1,17 +1,16 @@
 import React, { useState } from 'react';
 import { HashLink } from 'react-router-hash-link';
-import mylogo from '../assets/mylogo.png'; // Import Logo
+import mylogo from '../assets/mylogo.png'; 
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
     <div className="w-full h-full bg-gray-800 dark:bg-gray-200">
-      <header className="lg:px-16 px-4 flex flex-wrap items-center py-2 shadow-lg">
-        {/* Logo Section */}
+      <header className="lg:px-16 px-4 flex flex-wrap items-center py-2 shadow-lg">        
         <div className="flex-1 flex justify-between items-center">
           <img className="sm:w-[8rem] w-[14rem]" src={mylogo} alt="Logo" />
-          {/* Hamburger Menu for Mobile */}
+          
           <button
             className="md:hidden block text-indigo-600 focus:outline-none"
             onClick={() => setMenuOpen(!menuOpen)}
@@ -26,8 +25,7 @@ function Navbar() {
             </svg>
           </button>
         </div>
-
-        {/* Navbar Links */}
+        
         <div
           className={`${
             menuOpen ? 'block' : 'hidden'
