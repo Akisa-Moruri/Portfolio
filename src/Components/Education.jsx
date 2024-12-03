@@ -19,7 +19,7 @@ function Education() {
         course: 'Technical Convertion in Land Surveying',
       },
     {
-      year: 'February 2024 - August 2024',
+      year: 'February 2024 - November 2024',
       school: 'Moringa School',
       course: 'Certification in Software Engineering',
     },

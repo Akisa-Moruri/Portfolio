@@ -17,7 +17,7 @@ function Contact() {
         <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
           <img src="https://img.icons8.com/fluent/30/000000/linkedin-2.png" alt="LinkedIn" />
         </a>
-        <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/Akisa-Moruri" target="_blank" rel="noopener noreferrer">
           <img src="https://img.icons8.com/fluent/30/000000/github.png" alt="GitHub" />
         </a>
 
