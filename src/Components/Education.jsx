@@ -3,11 +3,7 @@ import { AcademicCapIcon } from '@heroicons/react/24/solid';
 
 function Education() {
   const educationData = [
-    {
-      year: '2004 - 2008',
-      school: 'Enkinda SDA Mixed Secondary School',
-      course:'Kenya Certificate in Secondary Education'
-    },
+    
     {
       year: '2010 - 2013',
       school: 'Kenya Institute of Surveying and Mapping',
