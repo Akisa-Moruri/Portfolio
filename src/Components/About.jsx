@@ -27,7 +27,7 @@ function About() {
                 A results-driven professional with a robust foundation in the Geo-spatial industry and full-stack development expertise. Proven track record of effectively resolving complex technical challenges and delivering innovative solutions.
               </p>
               <p className="mt-4 text-gray-900">
-                Key expertise includes JavaScript, Next.js, ReactJS, Python, SQL, PostgreSQL, and Git. Combining strong technical acumen with excellent communication skills, I am eager to contribute to dynamic roles that require a balance of analytical thinking, technical expertise, and team collaboration.
+                Key expertise includes GIS, Remote Sensing, JavaScript, Next.js, ReactJS, Python, SQL, PostgreSQL, and Git. Combining strong technical acumen with excellent communication skills, I am eager to contribute to dynamic roles that require a balance of analytical thinking, technical expertise, and team collaboration.
               </p>
             </header>
           </main>
