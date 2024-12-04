@@ -48,6 +48,8 @@ function Projects() {
           ))}
         </div>
       </section>
+      <br />
+      <hr />
     </div>
   );
 }

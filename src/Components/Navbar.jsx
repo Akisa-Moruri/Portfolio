@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { HashLink } from 'react-router-hash-link';
-import mylogo from '../assets/mylogo.png'; 
+import logo from '../assets/logo.png'; 
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -9,7 +9,7 @@ function Navbar() {
     <div className="w-full h-full bg-gray-800 dark:bg-gray-200">
       <header className="lg:px-16 px-4 flex flex-wrap items-center py-2 shadow-lg">        
         <div className="flex-1 flex justify-between items-center">
-          <img className="sm:w-[8rem] w-[14rem]" src={mylogo} alt="Logo" />
+          <img className="sm:w-[4rem] w-[4rem]" src={logo} alt="Logo" />
           
           <button
             className="md:hidden block text-indigo-600 focus:outline-none"
