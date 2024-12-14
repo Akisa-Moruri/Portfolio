@@ -2,18 +2,17 @@ import React, { useEffect } from 'react';
 import Typed from 'typed.js';
 import Myimage from '../assets/Myimage.jpg';
 
-
 function Home() {
   useEffect(() => {
     const typed = new Typed('.typing', {
-      strings: ['', 'FullStack Developer,', 'Frontend Developer,', 'Backend Developer,', 'Geospatial Analyst.','Land Surveyor.'],
+      strings: ['', 'FullStack Developer,', 'Geospatial Developer', 'Geospatial Analyst.', 'Land Surveyor.'],
       typeSpeed: 100,
       backSpeed: 60,
       loop: true,
     });
 
     return () => {
-      typed.destroy(); 
+      typed.destroy();
     };
   }, []);
 
@@ -34,22 +33,33 @@ function Home() {
         </div>
         <div className="w-full flex flex-col justify-center gap-4 md:text-left text-center text-white dark:text-gray-800 md:mt-0 sm:mt-8 mt-4">
           <h1 className="md:text-4xl sm:text-3xl text-2xl font-semibold font-serif">Hello, My name is Akisa Moruri</h1>
-          <h2 className="capitalize text-green-400">I'm <span className="typing text-indigo-600 dark:text-indigo-600">fullstack developer</span></h2>
-          <p>I'm passionate about crafting digital experiences that push the boundaries of creativity, technology, and human connection. Right now, I’m focused on building products that put people first—accessible, intuitive, and designed to enhance everyday life. My goal is to shape technology that not only meets needs but truly empowers users, making every interaction feel seamless, inclusive, and exciting. By blending innovation with empathy, I strive to create digital worlds where everyone feels welcome and engaged.</p>
+          <h2 className="capitalize text-green-400">
+            I'm <span className="typing text-indigo-600 dark:text-indigo-600">fullstack developer</span>
+          </h2>
+          <p>
+            I'm passionate about crafting digital experiences that push the boundaries of creativity, technology, and human connection.
+            Right now, I’m focused on building products that put people first—accessible, intuitive, and designed to enhance everyday life.
+            My goal is to shape technology that not only meets needs but truly empowers users, making every interaction feel seamless,
+            inclusive, and exciting. By blending innovation with empathy, I strive to create digital worlds where everyone feels welcome
+            and engaged.
+          </p>
           <div className="mt-6 flex sm:flex-row flex-col gap-4 sm:justify-start justify-center">
-          <button className="p-2 px-6 text-white font-semibold rounded-full outline outline-2 outline-green-500 hover:bg-green-600 transition ease-in-out delay-150">
-          <a href="https://wa.me/254795105127?text=<>" target="_blank" rel="noopener noreferrer">
-            Hire Me
-          </a>
-</button>
+            <button className="p-2 px-6 text-white font-semibold rounded-full outline outline-2 outline-green-500 hover:bg-green-600 transition ease-in-out delay-150">
+              <a href="https://wa.me/254795105127?text=<>" target="_blank" rel="noopener noreferrer">
+                Hire Me
+              </a>
+            </button>
 
-            <button className="p-2 px-6 text-white font-semibold rounded-full outline outline-2 outline-indigo-500 hover:bg-indigo-600 transition ease-in-out delay-150">Download CV</button>
+            <a
+              href="/CV.pdf"
+              download="CV.pdf"
+              className="p-2 px-6 text-white font-semibold rounded-full outline outline-2 outline-indigo-500 hover:bg-indigo-600 transition ease-in-out delay-150"
+            >
+              Download CV
+            </a>
           </div>
         </div>
       </div>
-      
-
-     
     </div>
   );
 }
