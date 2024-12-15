@@ -44,19 +44,22 @@ function Home() {
             and engaged.
           </p>
           <div className="mt-6 flex sm:flex-row flex-col gap-4 sm:justify-start justify-center">
-            <button className="p-2 px-6 text-white font-semibold rounded-full outline outline-2 outline-green-500 hover:bg-green-600 transition ease-in-out delay-150">
+            <button className="p-3 px-6 text-white font-semibold rounded-full outline outline-2 outline-green-500 hover:bg-green-600 transition ease-in-out delay-150">
               <a href="https://wa.me/254795105127?text=<>" target="_blank" rel="noopener noreferrer">
                 Hire Me
               </a>
             </button>
 
-            <a
-              href="/CV.pdf"
-              download="CV.pdf"
-              className="p-2 px-6 text-white font-semibold rounded-full outline outline-2 outline-indigo-500 hover:bg-indigo-600 transition ease-in-out delay-150"
-            >
-              Download CV
-            </a>
+            <div className="flex justify-center items-center mt-4">
+              <a
+                href="/CV.pdf"
+                download="CV.pdf"
+                className="p-3 sm:px-6 px-4 text-white font-semibold rounded-full outline outline-2 outline-indigo-500 hover:bg-indigo-600 transition ease-in-out delay-150 text-center block"
+              >
+                Download CV
+              </a>
+            </div>
+
           </div>
         </div>
       </div>
