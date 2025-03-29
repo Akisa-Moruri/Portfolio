@@ -50,13 +50,13 @@ function Home() {
               </a>
             </button>
 
-            <a
+            {/* <a
               href="/CV.pdf"
               download="CV.pdf"
               className="p-2 px-6 text-white font-semibold rounded-full outline outline-2 outline-indigo-500 hover:bg-indigo-600 transition ease-in-out delay-150"
             >
               Download CV
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
