@@ -3,6 +3,11 @@ import { AcademicCapIcon } from '@heroicons/react/24/solid';
 
 function Education() {
   const educationData = [
+    {
+      year: 'February 2024 - November 2024',
+      school: 'Moringa School',
+      course: 'Certification in Software Engineering',
+    },
     
     {
       year: '2010 - 2013',
@@ -10,15 +15,12 @@ function Education() {
       course: 'Diploma in Land Surveying',
     },
     {
-        year: '2015 - 2017',
-        school: 'Defence Forces Technical College',
-        course: 'Technical Convertion in Land Surveying',
-      },
-    {
-      year: 'February 2024 - November 2024',
-      school: 'Moringa School',
-      course: 'Certification in Software Engineering',
+      year: 'January 2009 - November 2010',
+      school: 'Mt. Kenya University',
+      course: 'Diploma in Business Information Technology',
     },
+    
+    
   ];
 
   return (
