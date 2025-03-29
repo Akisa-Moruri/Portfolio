@@ -1,16 +1,17 @@
 import React, { useState } from 'react';
-import { HashLink } from 'react-router-hash-link';
-import logo from '../assets/logo.png'; 
+import { HashLink } from 'react-router-hash-link';  // Used for smooth scrolling
+import logo from '../assets/logo.png';
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
     <div className="w-full h-full bg-gray-800 dark:bg-gray-200">
-      <header className="lg:px-16 px-4 flex flex-wrap items-center py-2 shadow-lg">        
+      <header className="lg:px-16 px-4 flex flex-wrap items-center py-2 shadow-lg">
         <div className="flex-1 flex justify-between items-center">
           <img className="sm:w-[4rem] w-[4rem]" src={logo} alt="Logo" />
-          
+
+          {/* Mobile Menu Button */}
           <button
             className="md:hidden block text-indigo-600 focus:outline-none"
             onClick={() => setMenuOpen(!menuOpen)}
@@ -25,7 +26,8 @@ function Navbar() {
             </svg>
           </button>
         </div>
-        
+
+        {/* Mobile and Desktop Navigation */}
         <div
           className={`${
             menuOpen ? 'block' : 'hidden'
@@ -33,12 +35,51 @@ function Navbar() {
         >
           <nav>
             <ul className="md:flex items-center justify-between text-base text-gray-100 dark:text-gray-600 pt-4 md:pt-0">
-              <li><HashLink smooth to="/" className="md:p-4 py-3 px-0 block text-indigo-600 hover:text-indigo-400">Home</HashLink></li>
-              <li><HashLink smooth to="/about" className="md:p-4 py-3 px-0 block hover:text-indigo-400">About Me</HashLink></li>
-              <li><HashLink smooth to="/education" className="md:p-4 py-3 px-0 block hover:text-indigo-400">Education</HashLink></li>
-              <li><HashLink smooth to="/experience" className="md:p-4 py-3 px-0 block hover:text-indigo-400">Experience</HashLink></li>
-              <li><HashLink smooth to="/projects" className="md:p-4 py-3 px-0 block hover:text-indigo-400">Projects</HashLink></li>
-              <li><HashLink smooth to="/contact" className="md:p-4 py-3 px-0 block md:mb-0 mb-2 hover:text-indigo-400">Contact</HashLink></li>
+              <li>
+                <HashLink
+                  smooth
+                  to="#about"
+                  className="md:p-4 py-3 px-0 block text-indigo-600 hover:text-indigo-400"
+                >
+                  About Me
+                </HashLink>
+              </li>
+              <li>
+                <HashLink
+                  smooth
+                  to="#education"
+                  className="md:p-4 py-3 px-0 block hover:text-indigo-400"
+                >
+                  Education
+                </HashLink>
+              </li>
+              <li>
+                <HashLink
+                  smooth
+                  to="#experience"
+                  className="md:p-4 py-3 px-0 block hover:text-indigo-400"
+                >
+                  Experience
+                </HashLink>
+              </li>
+              <li>
+                <HashLink
+                  smooth
+                  to="#projects"
+                  className="md:p-4 py-3 px-0 block hover:text-indigo-400"
+                >
+                  Projects
+                </HashLink>
+              </li>
+              <li>
+                <HashLink
+                  smooth
+                  to="#contact"
+                  className="md:p-4 py-3 px-0 block md:mb-0 mb-2 hover:text-indigo-400"
+                >
+                  Contact
+                </HashLink>
+              </li>
             </ul>
           </nav>
         </div>
