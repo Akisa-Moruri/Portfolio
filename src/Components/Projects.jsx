@@ -15,7 +15,7 @@ function Projects() {
     {
       id: 2,
       title: "Believers Celebration Centre Church",
-      description: "Believers Celebration Centre Church website",
+      description: "Church website",
       image: church_image,
       link: "https://www.believerscelebrationcentre.com",
     },
