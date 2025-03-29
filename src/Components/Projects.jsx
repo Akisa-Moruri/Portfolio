@@ -1,4 +1,6 @@
 import React from "react";
+import church_image from '../assets/church_image.png';
+import dfirtrace from '../assets/dfirtrace.png';
 
 function Projects() {
   
@@ -7,24 +9,16 @@ function Projects() {
       id: 1,
       title: "DFIR TRACE",
       description: "Forensic and cyber-security private firm website",
-      status: "Under Development",
-      image: "",    
+      image: dfirtrace,
+      link: "https://dfirtrace.netlify.app/",
     },
     {
       id: 2,
-      title: "BCC CHURCH",
-      description: "Church Website",
-      status: "Under Development",
-      image: "",    
+      title: "Believers Celebration Centre Church",
+      description: "Believers Celebration Centre Church website",
+      image: church_image,
+      link: "https://www.believerscelebrationcentre.com",
     },
-    {
-      id: 3,
-      title: "",
-      description: "",
-      status: "Under Development",
-      image: "",      
-    },
-    
   ];
 
   return (
@@ -37,13 +31,15 @@ function Projects() {
               key={product.id}
               className="p-5 py-10 bg-purple-50 text-center transition-transform duration-500 hover:-translate-y-2 cursor-pointer"
             >
+              {/* Render the product image */}
               <img src={product.image} alt={product.title} className="mx-auto" />              
               <h1 className="text-3xl my-5">{product.title}</h1>
               <p className="mb-5">{product.description}</p>
-              <h2 className="font-semibold mb-5">{product.status}</h2>
-              <button className="p-2 px-6 bg-purple-500 text-white rounded-md hover:bg-purple-600">
-                Link
-              </button>
+              <a href={product.link} target="_blank" rel="noopener noreferrer">
+                <button className="p-2 px-6 bg-purple-500 text-white rounded-md hover:bg-purple-600">
+                  Link
+                </button>
+              </a>
             </div>
           ))}
         </div>
