@@ -33,12 +33,12 @@ function Navbar() {
         >
           <nav>
             <ul className="md:flex items-center justify-between text-base text-gray-100 dark:text-gray-600 pt-4 md:pt-0">
-              <li><HashLink smooth to="#home" className="md:p-4 py-3 px-0 block text-indigo-600 hover:text-indigo-400">Home</HashLink></li>
-              <li><HashLink smooth to="#about" className="md:p-4 py-3 px-0 block hover:text-indigo-400">About Me</HashLink></li>
-              <li><HashLink smooth to="#education" className="md:p-4 py-3 px-0 block hover:text-indigo-400">Education</HashLink></li>
-              <li><HashLink smooth to="#experience" className="md:p-4 py-3 px-0 block hover:text-indigo-400">Experience</HashLink></li>
-              <li><HashLink smooth to="#projects" className="md:p-4 py-3 px-0 block hover:text-indigo-400">Projects</HashLink></li>
-              <li><HashLink smooth to="#contact" className="md:p-4 py-3 px-0 block md:mb-0 mb-2 hover:text-indigo-400">Contact</HashLink></li>
+              <li><HashLink smooth to="/" className="md:p-4 py-3 px-0 block text-indigo-600 hover:text-indigo-400">Home</HashLink></li>
+              <li><HashLink smooth to="/about" className="md:p-4 py-3 px-0 block hover:text-indigo-400">About Me</HashLink></li>
+              <li><HashLink smooth to="/education" className="md:p-4 py-3 px-0 block hover:text-indigo-400">Education</HashLink></li>
+              <li><HashLink smooth to="/experience" className="md:p-4 py-3 px-0 block hover:text-indigo-400">Experience</HashLink></li>
+              <li><HashLink smooth to="/projects" className="md:p-4 py-3 px-0 block hover:text-indigo-400">Projects</HashLink></li>
+              <li><HashLink smooth to="/contact" className="md:p-4 py-3 px-0 block md:mb-0 mb-2 hover:text-indigo-400">Contact</HashLink></li>
             </ul>
           </nav>
         </div>
