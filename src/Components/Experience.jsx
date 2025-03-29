@@ -12,6 +12,11 @@ import logogit from '../assets/logogit.png';
 import logopostman from '../assets/logopostman.png';
 import postgre from '../assets/postgre.png';
 import figma from '../assets/figma.png';
+import gis from '../assets/gis.png';
+import remote_sensing from '../assets/remote_sensing.png';
+import gis_products from '../assets/gis_products.png';
+
+
 
 const TechMarquee = () => {
   const techs = [
@@ -27,6 +32,9 @@ const TechMarquee = () => {
     { name: "Postman", src: logopostman },
     { name: "Postgresql", src: postgre },
     { name: "Figma", src: figma },
+    { name: "GIS", src: gis },
+    { name: "Remote Sensing", src: remote_sensing },
+    { name: "GIS Products", src: gis_products },
   ];
 
   return (
